@@ -27,7 +27,7 @@ public class ActivityController {
 		return repo.findAll();
 	}
 	
-	@PostMapping
+	@PostMapping("/create")
 	@ResponseStatus(HttpStatus.OK)
 	public void create(@RequestBody Activity activity) {
 		repo.save(activity);
