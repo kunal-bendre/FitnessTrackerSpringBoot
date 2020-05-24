@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "activity",schema="tracker_activity")
+@Table(name = "activity")
 public class Activity {
 	
 	@Id
